@@ -9,7 +9,7 @@ const Navbar = () => (
   <Box
     display="flex"
     justifyContent="space-between"
-    alignContent="center"
+    alignItems="center"
     marginBottom={{ base: '8rem', lg: '10rem' }}
   >
     <Link to="/" underline={false}>

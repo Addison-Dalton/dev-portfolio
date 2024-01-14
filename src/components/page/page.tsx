@@ -14,9 +14,9 @@ const Page: FC<PageProps> = ({ children }) => (
     flexDirection="column"
     position="relative"
     minHeight={{
-      base: 'calc(100vh - 1.5rem)',
-      md: 'calc(100vh - 3rem)',
-      lg: 'calc(100vh - 4rem)'
+      base: 'calc(100dvh - 1.5rem)',
+      md: 'calc(100dvh - 3rem)',
+      lg: 'calc(100dvh - 4rem)'
     }}
     mt={topmargin}
     ml={leftRightMargin}

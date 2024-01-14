@@ -1,4 +1,7 @@
-import { Box, Heading, Text } from '@chakra-ui/react';
+import { Box, Heading, Text, Button } from '@chakra-ui/react';
+import { ArrowForwardIcon } from '@chakra-ui/icons';
+
+import Link from 'components/link';
 
 import Lines from 'assets/icons/lines.svg';
 
@@ -17,7 +20,11 @@ const HomePage = () => {
       >
         <Lines />
       </Box>
-      <Box zIndex={10} position="relative">
+      <Box
+        zIndex={10}
+        position="relative"
+        paddingBottom={{ base: '3rem', md: '4rem' }}
+      >
         <Heading
           as="h1"
           size={{ base: '2xl', sm: '3xl', md: '4xl' }}
@@ -39,6 +46,14 @@ const HomePage = () => {
           </Text>
         </Heading>
       </Box>
+      <Button
+        as={Link}
+        to="/projects"
+        variant="outline"
+        rightIcon={<ArrowForwardIcon />}
+      >
+        View my work
+      </Button>
     </Box>
   );
 };
