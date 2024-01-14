@@ -25,6 +25,9 @@ const customTheme = {
   },
   styles: {
     global: {
+      '#root': {
+        overflow: 'hidden'
+      },
       body: {
         background: 'background.primary',
         backgroundImage:
