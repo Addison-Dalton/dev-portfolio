@@ -6,5 +6,5 @@ import svgr from 'vite-plugin-svgr';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths(), svgr({ include: '**/*.svg' })],
-  base: 'https://addison-dalton.github.io/dev-portfolio/'
+  base: '/dev-portfolio'
 });
