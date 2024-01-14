@@ -14,7 +14,7 @@ const Footer = () => (
       </ListItem>
       <ListItem>
         <Link
-          href="www.linkedin.com/in/addison-dalton-914b44109"
+          href="https://www.linkedin.com/in/addison-dalton-914b44109"
           title="Addison Dalton's LinkedIn link"
         >
           <Icon boxSize={6} as={FaLinkedin} />
