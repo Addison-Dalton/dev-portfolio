@@ -3,26 +3,10 @@ import { ArrowForwardIcon } from '@chakra-ui/icons';
 
 import Link from 'components/link';
 
-import Lines from 'assets/icons/lines.svg';
-
 const HomePage = () => {
   return (
-    <Box position="relative">
+    <Box>
       <Box
-        position="absolute"
-        top="-5.5rem"
-        // the negative rems is to offset the art from the page margin
-        left={{
-          base: 'calc(0px - 2rem)',
-          md: 'calc(0px - 6rem)',
-          lg: 'calc(0px - 10rem)'
-        }}
-      >
-        <Lines />
-      </Box>
-      <Box
-        zIndex={10}
-        position="relative"
         paddingBottom={{ base: '3rem', md: '4rem' }}
       >
         <Heading
